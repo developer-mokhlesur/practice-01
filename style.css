@@ -1,0 +1,73 @@
+a{
+    text-decoration: none;
+} 
+/* Header-Top CSS Start */
+.header-top{
+    background: #0063ad;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+.header-top a{
+    color: #ffff;
+}
+.header-left a:hover{
+   color: #ffc221;
+}
+.header-left{
+    transition: all 0.3s ease-in-out;
+}
+.header-left span {
+    color: #ffc221;
+}
+.header-right {
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+}
+.header-right a.phn {
+	background: #2980b9;
+	display: inline-block;
+	padding: 5px 17px;
+    border: 1px solid #0063ad;
+    transition: all 0.3s ease-in-out;
+}
+.header-right .phn-1{
+    border-radius: 20px 0 0 20px;
+}
+.header-right .phn-2{
+    border-radius: 0 20px 20px 0;
+}
+.header-right a.phn:hover {
+	background: #0f78c7eb;
+	color: #ffc221;
+}
+/* Header CSS Start  */
+header{
+    background: #fff;
+}
+header img {
+	width: 160px;
+}
+header .nav{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    
+}
+header ul li{
+   padding: 0 15px;
+   text-align: center;
+}
+header ul li a {
+	font-size: 17px;
+	font-weight: 600;
+    color: #000;
+}
+header ul li a:hover{}
